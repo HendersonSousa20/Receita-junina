@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #feece0;
+}
+
+.food {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tex {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pamo {
+  width: 409px;
+  height: 293px;
+  margin-right: 50px;
+}
+
+.vec {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    margin-top: 11px;
+}
+
+.vec img {
+  display: flex;
+align-items: center;
+  width: 32px;
+  height: 32px;
+}
+
+.food h1 {
+  color: #58190a;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Serif Pro;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.food p {
+  color: #58190a;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Serif Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.food span {
+  color: #9b6647;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Serif Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recipe {
+  height: 50vh;
+  background-color: #9b6647;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.recipe h3 {
+  color: #feece0;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Serif Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ul li {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Sans Pro;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ol li {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Sans Pro;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.i {
+  display: flex;
+  
+}
+
+.recipe img {
+margin-right: 11px;
+  width: 37.926px;
+  height: 32px;
+}
+
+.incredientes {
+     display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.modo {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
